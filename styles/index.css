@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1fb35;
+}
+.container {
+  width: 1110px;
+  height: 1590px;
+  margin:0 auto;
+  background-color: #ffffff;
+  padding: 30px 50px 25px;
+  font-family: 'Nunito', sans-serif;
+  color: #7a1fd6;
+  font-size: 24px;
+  position: relative;
+}
+
+
+.header {
+  margin-top: 20px;
+  position: relative;
+}
+
+.title {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  width: 96%;
+  height: 5px;
+  top: 150px;
+  left: 2%;
+  bottom: 30px;
+  background-color: #7a1fd6;
+  border-radius: 15px;
+}
+
+.item {
+  padding-top: 8px;
+  padding-left: 30px;
+  padding-right: 20px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.itemMain {
+  margin-top: 18px;
+  font-size: 32px;
+}
+
+.img {
+  align-items: center;
+  margin-right: 18px;
+  width: 60px;
+  height: 60px;
+}
+
+.down {
+  width: 96%;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.before,
+.after {
+  height: 5px;
+  width: 180px;
+  background-color: rgb(122, 31, 214);
+  border-radius: 15px;
+  margin: 0;
+}
+
+.wishes {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  margin: 0 20px;
+
+}
+.clinic {
+  /* font-family: 'Kalam', cursive; */
+  font-family: 'Alkatra', cursive;
+  text-align: right;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 0px;
+  margin-right: 60px;
+
+}
+
+.ukr{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  height: 122px;
+  width: 111px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/ua.png');
+  background-size: cover;
+}
